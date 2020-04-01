@@ -1,0 +1,67 @@
+/* Write our CSS in here */
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
+
+/* What I am selecting */
+h1 {
+    /* How to style it */
+    /* font-weight: 200; */
+    font-weight: 200;
+    font-size: 70px;
+    text-transform: uppercase;
+    border-top: 5px solid;
+}
+
+/* Using a hexadecimal code for the background color */
+body {
+    background-color: #f69680;
+    color: #2e1263;
+    font-family: "Source Code Pro";
+    font-weight: 200;
+}
+p {
+    padding: auto;
+    margin: 15px auto;
+    /* Need to make space away from the bottom of the page */
+} 
+
+img {
+    height: 500px;
+    /* Will make the border rounded */
+    border-radius: 50%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+button {
+    /* space on the outside between the other elements */
+    margin: 30px auto 0;
+    /* Space between the element and the border in the inside */
+    padding: 20px 25px;
+    background-color: #f69680;
+    color: #2e1263;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #2e1263;
+    /* Putting this style here so it does not impact the HTML */
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    outline: none;
+}
+
+button:hover {
+    transition: 0.3s;
+    background-color: #2e1263;
+    color: #f69680;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+}
